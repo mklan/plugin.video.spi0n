@@ -13,10 +13,10 @@
     <disclaimer lang="en"></disclaimer>
     <language></language>
     <platform>all</platform>
-    <license></license>
+    <license>MIT</license>
     <forum></forum>
-    <website></website>
+    <website>http://www.spi0n.com/zapping-web/</website>
     <email>matthias.klan@gmail.com</email>
-    <source></source>
+    <source>https://github.com/vaceta/plugin.video.spi0n</source>
   </extension>
 </addon>
