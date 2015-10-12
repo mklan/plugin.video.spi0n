@@ -2,7 +2,7 @@
 <addon id="plugin.video.spi0n" name="Le Zap de Spi0n" version="1.0.0" provider-name="Matthias Klan">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="plugin.video.dailymotion_com" version="2.1.2"/>
+    <import addon="plugin.video.dailymotion_com" version="2.1.5"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video</provides>
