@@ -1,2 +1,5 @@
+v1.0.1
+-fix playback, you need to install dailymotion 4k manually
+
 v1.0.0
 - Initial version

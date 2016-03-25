@@ -1,6 +1,6 @@
 # The MIT License (MIT)
 
-# Copyright (c) 2014 Matthias Klan
+# Copyright (c) 2016 Matthias Klan
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy of
 # this software and associated documentation files (the "Software"), to deal in
@@ -57,7 +57,7 @@ def listSpions(page):
 			desc = temp+"\n"+desc
 		except:
 			desc = ""
-		
+
 		addLink(id, title, desc, date, duration, thumb)
 
 
@@ -65,7 +65,7 @@ def listSpions(page):
 		currentPage = content['page']
 		nextPage = currentPage+1
 		addDir("next page ("+str(nextPage)+")", nextPage, "")
-	
+
 	xbmcplugin.endOfDirectory(addon_handle)
 
 
@@ -85,7 +85,7 @@ def addDir(name, page, thumbImage):
     return ok
 
 def addLink(id, title, desc, date, duration, iconimage):
-	link = 'plugin://plugin.video.dailymotion_com/?url=' + id +'&mode=playVideo'
+	link = 'plugin://plugin.video.dailymotion/?url=' + id +'&mode=playVideo'
 	li = xbmcgui.ListItem(title, iconImage='DefaultVideo.png', thumbnailImage=iconimage)
 	li.setInfo(type="Video", infoLabels={"Title": title, "Plot": desc, "Aired": date, "Duration": duration})
 	li.setProperty('IsPlayable', 'true')
@@ -102,4 +102,3 @@ if page is None:
 	listSpions(1)
 else:
 	listSpions(page[0])
-

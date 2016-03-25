@@ -1,13 +1,6 @@
-plugin.video.spi0n
-==================
-
-a Kodi addon that allows you to watch your Le Zap de Spi0ns on your Kodi-powered TV
-
-## Licence
-
 The MIT License (MIT)
 
-Copyright (c) 2016 Matthias Klan
+Copyright (c) 2014 Matthias Klan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
