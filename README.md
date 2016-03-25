@@ -3,11 +3,15 @@ plugin.video.spi0n
 
 a Kodi addon that allows you to watch your Le Zap de Spi0ns on your Kodi-powered TV
 
+## Install
+
+in order to make this plugin work again, please install the dailymotion 4k plugin first (provided in this repo)
+
 ## Licence
 
 The MIT License (MIT)
 
-Copyright (c) 2016 Matthias Klan
+Copyright (c) 2014-2016 Matthias Klan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
