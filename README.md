@@ -5,7 +5,7 @@ a Kodi addon that allows you to watch your Le Zap de Spi0ns on your Kodi-powered
 
 ## Install
 
-in order to make this plugin work again, please install the dailymotion 4k plugin first (provided in this repo)
+in order to make this plugin work again, install the dailymotion 4k plugin first (provided in this repo). After install restart Kodi and install the zip of the spi0n plugin.
 
 ## Licence
 
